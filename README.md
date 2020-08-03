@@ -8,7 +8,7 @@ Repositorio para o desafio da linx
 	- BootStrap 4
 	- MySQL(phpmyadmin)
 
-##O que foi feito:##
+## O que foi feito: ##
 
 - [X] Cadastrar nova Cidade
 - [X] Alterar dados das Cidades
@@ -17,7 +17,7 @@ Repositorio para o desafio da linx
 - [X] Pesquisa por UF, Região e Cidade
 - [X] Design Responsível(Página de cadastro, alteração de dados e  relatórios)
 
-##O que não foi feito:##
+## O que não foi feito: ##
 
 - [] Utilização de um Padrão de Projeto
 - [] Testes Unitários
