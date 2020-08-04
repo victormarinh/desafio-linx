@@ -22,6 +22,5 @@
 
 	$query->execute();
 
-
-	header('Location: ../../index.php')
+	header('Location: ../../index.php?success=2');
 ?>

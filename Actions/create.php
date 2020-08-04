@@ -1,6 +1,6 @@
 <?php
 
-	require_once '../Config/ConnectDb.php';
+require_once '../Config/ConnectDb.php';
 
 	$novaIbge = $_POST['ibge'];
 	$novaCidade = $_POST['cidade'];
@@ -8,6 +8,8 @@
 	$novaLongitude = $_POST['longitude'];
 	$novaRegiao = $_POST['regiao'];
 	$novaUf = $_POST['uf'];
+
+
 
 	$query = $pdo->prepare("INSERT INTO cidades(`ibge`, `uf`, `cidade`, `latitude`, `longitude`, `regiao`) VALUES(:ibge , :uf, :cidade, :latitude, :longitude, :regiao)");
 
@@ -20,6 +22,7 @@
 
 	$query->execute();
 
-	header('Location: ../index.php');
-	
+	header('Location: ../index.php?success=1');
+
+
 ?>

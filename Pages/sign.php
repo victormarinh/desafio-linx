@@ -2,7 +2,6 @@
 
 	require_once '../Config/ConnectDb.php';
 
-	
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">

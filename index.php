@@ -2,6 +2,8 @@
 
 	require_once 'Config/ConnectDb.php'; 
 
+	$arraySucesso = [1 => 'Cadastro feito com sucesso!', 2 => 'Alteração feita com sucesso!', 3 => 'Registro apagado com sucesso!'];
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -29,7 +31,18 @@
 		    <input class="form-control mr-sm-2" type="search" name="buscarLista" placeholder="Pesquisar: UF, Cidade ou Região" aria-label="Search" style="width: 400px;">
 		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-right: 50px;">Pesquisar</button>
 
-		    <!--<h1 style="text-align: center; margin-top: 20px;">Listagem:</h1>-->
+		    <?php 
+		    	if(isset($_GET['success'])){
+		    		foreach ($arraySucesso as $key => $value) {
+		    			if ($key == $_GET['success']) {
+		    			
+		    ?>
+
+		    <div class="alert alert-warning" role="alert">
+  				<?php echo $value; ?>
+			</div>
+
+			<?php }}} ?>
 
 		<table class="table" style="margin-top: 25px;">
 		  <thead class="thead-dark">
