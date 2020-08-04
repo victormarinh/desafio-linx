@@ -1,5 +1,5 @@
 # Desafio Tecnico #
-Repositorio para o desafio da linx
+Repositório para o Desafio da Linx
 
 ## Techs Utilizadas: ##
 	- PHP 7 + PDO
@@ -8,7 +8,7 @@ Repositorio para o desafio da linx
 	- BootStrap 4
 	- MySQL(phpmyadmin)
 
-## O que foi feito: ##
+## Feito: ##
 
 - [X] Cadastrar nova Cidade
 - [X] Alterar dados das Cidades
@@ -17,7 +17,7 @@ Repositorio para o desafio da linx
 - [X] Pesquisa por UF, Região e Cidade
 - [X] Design Responsível(Página de cadastro, alteração de dados e  relatórios)
 
-## O que não foi feito: ##
+## Não Feito: ##
 
 - [] Utilização de um Padrão de Projeto
 - [] Testes Unitários
@@ -30,6 +30,6 @@ Repositorio para o desafio da linx
 	-Primeiro:
 		- É preciso importar o arquivo Config/linx.sql no seu BD Mysql(Eu usei o phpmyadmin);
 	-Segundo:
-		- Configurar o Acesso da aplicação com o DB da Máquina, no arquivo ConnectDb.php;
+		- Configurar o Acesso da aplicação com o DB da Máquina, no arquivo Config/ConnectDb.php;
 	-Terceiro:
 		- Ligar servidor do Xampp ou Wampp, acessar o localhost no navegador e pronto.
