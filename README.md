@@ -25,7 +25,7 @@ Repositório para o Desafio da Linx
 - [] Organização do Código seguindo os padrões Clean Code, DRY e SOLID.
 
 
-#Como rodar o App#
+# Como rodar o App #
 
 	-Primeiro:
 		- É preciso importar o arquivo Config/linx.sql no seu BD Mysql(Eu usei o phpmyadmin);
